@@ -15,6 +15,5 @@ public class Player : MonoBehaviour
         playerMoney += money; 
         PlayerPrefs.SetInt("money", playerMoney);
         HUDController.instance.UpdateMoney(playerMoney);
-
     }
 }
